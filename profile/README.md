@@ -4,7 +4,7 @@
 
 > This is where we can test ideas, create educational materials, and build PoC projects 
 
-Costa Rica
+USA / Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
