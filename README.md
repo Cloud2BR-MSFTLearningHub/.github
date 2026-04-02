@@ -13,7 +13,7 @@ Last updated: 2026-02-11
 
 > E.g
 
-<img width="903" height="599" alt="image" src="https://github.com/user-attachments/assets/8be272c2-d1f1-43c2-b4cf-a724e5233871" />
+<img width="1423" height="1538" alt="image" src="https://github.com/user-attachments/assets/6001ee86-4708-47dd-a923-ffd9905d3fd6" />
 
 ## What this is for
 
