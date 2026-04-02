@@ -9,7 +9,7 @@ Last updated: 2026-02-11
 
 ----------
 
-> This repository holds the public **GitHub profile content** for *Microsoft Cloud Sandbox - Unofficial* and a small **GitHub Actions automation** that refreshes the visitor/view counter badge.
+> This repository holds the public **GitHub profile content** for *Microsoft Cloud Sandbox - Learning Hub* and a small **GitHub Actions automation** that refreshes the visitor/view counter badge.
 
 > E.g
 
