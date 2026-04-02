@@ -1,4 +1,8 @@
-# Microsoft Cloud Sandbox - Unofficial
+# Cloud2BR Open Source <br/> Microsoft Cloud Sandbox - Learning Hub 
+
+`Prototype in Sandbox → Build and experiment`
+
+> This is where we can test ideas, create educational materials, and build PoC projects 
 
 Costa Rica
 
