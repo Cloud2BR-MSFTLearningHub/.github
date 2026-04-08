@@ -40,6 +40,8 @@ about Microsoft Cloud and to share personal experience and learning with the com
 
 </details>
 
+Copilot services and tools:
+
 ```mermaid
 flowchart LR
   subgraph Personal_Productivity[Personal Productivity]
@@ -62,6 +64,54 @@ flowchart LR
   MicrosoftAgents --> CopilotStudio
   AzureAIFoundry --> ThirdPartyCustomAgents
 ```
+
+Deployment lifecycle of software:
+
+```mermaid
+flowchart LR
+  subgraph Development_Phases[Development Phases]
+    Alpha[Alpha Version] --> Beta[Beta Version]
+    Beta --> RC[Release Candidate]
+    RC --> GA[General Availability]
+  end
+
+  subgraph Feedback_Loop[Feedback & Testing]
+    InternalTesting[Internal Testing] --> Alpha
+    BetaTesters[External Beta Testers] --> Beta
+    BugReports[Bug Reports & Metrics] --> Beta
+    UserFeedback[User Feedback] --> RC
+  end
+
+  subgraph Deployment[Deployment & Release]
+    GA --> Production[Production Environment]
+    Production --> Maintenance[Maintenance & Updates]
+  end
+
+  Alpha --> Beta
+  Beta --> RC
+  RC --> GA
+```
+
+<details>
+<summary><b> Details: </b> (Click to expand)</summary>
+
+- Alpha:
+  - Internal testing phase.
+  - Features are incomplete or unstable.
+  - Used mainly by developers and sometimes a small internal QA team.
+- Beta:
+  - Product is more stable and feature-complete.
+  - Released to a limited group of external users (beta testers).
+  - Goal: gather feedback, identify bugs, and test usability in real-world scenarios.
+  - Often comes with disclaimers: “may contain bugs,” “not final,” etc.
+- Release Candidate (RC):
+  - A version that could be the final product if no major issues are found.
+  - Focus is on fixing critical bugs only.
+- General Availability (GA):
+  - Official public release.
+  - Considered stable, supported, and ready for production use.
+
+</details>
 
 <!-- START BADGE -->
 <div align="center">
