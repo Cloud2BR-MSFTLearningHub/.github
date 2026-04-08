@@ -69,48 +69,57 @@ Deployment lifecycle of software:
 
 ```mermaid
 flowchart LR
-  subgraph Development_Phases[Development Phases]
-    Alpha[Alpha Version] --> Beta[Beta Version]
+  subgraph Versioning[Semantic Versioning]
+    Major[Major Version: X] --> Minor[Minor Version: X.X]
+    Minor --> Patch[Patch Version: X.X.X]
+  end
+
+  subgraph Release_Types[Release Types]
+    DevBuild[Development Build] --> Alpha[Alpha Release]
+    Alpha --> Beta[Beta Release]
     Beta --> RC[Release Candidate]
-    RC --> GA[General Availability]
+    RC --> Stable[Stable Release]
   end
 
-  subgraph Feedback_Loop[Feedback & Testing]
-    InternalTesting[Internal Testing] --> Alpha
-    BetaTesters[External Beta Testers] --> Beta
-    BugReports[Bug Reports & Metrics] --> Beta
-    UserFeedback[User Feedback] --> RC
+  subgraph Maintenance[Maintenance & Updates]
+    Stable --> Hotfix[Hotfix Patch]
+    Stable --> FeatureUpdate[Feature Update Minor]
+    Stable --> BreakingChange[Breaking Change Major]
   end
 
-  subgraph Deployment[Deployment & Release]
-    GA --> Production[Production Environment]
-    Production --> Maintenance[Maintenance & Updates]
-  end
-
-  Alpha --> Beta
-  Beta --> RC
-  RC --> GA
+  Major --> Minor
+  Minor --> Patch
+  Stable --> Versioning
 ```
 
 <details>
 <summary><b> Details: </b> (Click to expand)</summary>
 
-- Alpha:
-  - Internal testing phase.
-  - Features are incomplete or unstable.
-  - Used mainly by developers and sometimes a small internal QA team.
-- Beta:
-  - Product is more stable and feature-complete.
-  - Released to a limited group of external users (beta testers).
-  - Goal: gather feedback, identify bugs, and test usability in real-world scenarios.
-  - Often comes with disclaimers: “may contain bugs,” “not final,” etc.
-- Release Candidate (RC):
-  - A version that could be the final product if no major issues are found.
-  - Focus is on fixing critical bugs only.
-- General Availability (GA):
-  - Official public release.
-  - Considered stable, supported, and ready for production use.
-
+- **Semantic Versioning (vX.X.X)**  
+  - **Major (X)**: Introduces breaking changes. Example: `v2.0.0` → incompatible with `v1.x.x`.  
+  - **Minor (X.X)**: Adds new features but remains backward-compatible. E.g: `v1.3.0`.  
+  - **Patch (X.X.X)**: Bug fixes or small improvements, no new features. E.g: `v1.3.2`.
+- **Release Types**  
+  - **Development Builds**: Internal, unstable, often nightly builds.  
+  - **Alpha**: Early testing, incomplete features.
+    - Internal testing phase.
+    - Features are incomplete or unstable.
+    - Used mainly by developers and sometimes a small internal QA team.
+  - **Beta**: Feature-complete, external testers provide feedback.
+    - Product is more stable and feature-complete.
+    - Released to a limited group of external users (beta testers).
+    - Goal: gather feedback, identify bugs, and test usability in real-world scenarios.
+    - Often comes with disclaimers: “may contain bugs,” “not final,” etc.
+  - **Release Candidate (RC)**: Candidate for final release, only critical fixes allowed.
+    - A version that could be the final product if no major issues are found.
+    - Focus is on fixing critical bugs only.
+  - General Availability (GA): Official production-ready release. 
+    - Official public release.
+    - Considered stable, supported, and ready for production use.
+- **Maintenance & Updates**  
+  - **Hotfix (Patch)**: Urgent bug/security fix, increments patch number.  
+  - **Feature Update (Minor)**: Adds new functionality without breaking compatibility.  
+  - **Breaking Change (Major)**: Requires incrementing the major version due to incompatibility.  
 </details>
 
 <!-- START BADGE -->
