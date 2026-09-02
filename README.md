@@ -40,9 +40,3 @@ Last updated: 2026-04-08
 > - The workflow uses an external tool repo (`brown9804/github-visitor-counter`) to generate the badge and `metrics.json`.
 > - Manual edits to `metrics.json` are not recommended because the workflow will replace it on the next run.
 
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1306-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-08</p>
-</div>
-<!-- END BADGE -->
