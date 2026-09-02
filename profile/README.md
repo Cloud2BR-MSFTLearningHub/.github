@@ -72,6 +72,15 @@ flowchart LR
   M365Copilot --> MicrosoftAgents
   MicrosoftAgents --> CopilotStudio
   AzureAIFoundry --> ThirdPartyCustomAgents
+
+  classDef productivity fill:#0B6E99,stroke:#66D9EF,color:#FFFFFF
+  classDef business fill:#397A3F,stroke:#9EE493,color:#FFFFFF
+  classDef extensibility fill:#8A5A00,stroke:#F5C451,color:#FFFFFF
+  classDef custom fill:#8B2E63,stroke:#F3A6CD,color:#FFFFFF
+  class CopilotChat,M365Copilot productivity
+  class MicrosoftAgents business
+  class CopilotStudio,AzureAIFoundry extensibility
+  class ThirdPartyCustomAgents custom
 ```
 
 ## Deployment lifecycle of software
@@ -99,6 +108,17 @@ flowchart LR
   Major --> Minor
   Minor --> Patch
   Stable --> Versioning
+
+  classDef build fill:#0B6E99,stroke:#66D9EF,color:#FFFFFF
+  classDef preview fill:#8A5A00,stroke:#F5C451,color:#FFFFFF
+  classDef release fill:#397A3F,stroke:#9EE493,color:#FFFFFF
+  classDef maintenance fill:#8B2E63,stroke:#F3A6CD,color:#FFFFFF
+  classDef versioning fill:#5B4B8A,stroke:#C4B5FD,color:#FFFFFF
+  class DevBuild build
+  class Alpha,Beta,RC preview
+  class Stable release
+  class Hotfix,FeatureUpdate,BreakingChange maintenance
+  class Major,Minor,Patch versioning
 ```
 
 <details>
