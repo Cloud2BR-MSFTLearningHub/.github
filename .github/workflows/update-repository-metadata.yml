@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update-metadata:
@@ -94,7 +95,8 @@ jobs:
           })().catch((error) => { console.error(error.message); process.exit(1); });
           NODE
 
-      - name: Commit metadata updates
+      - name: Commit private metadata updates
+        if: github.event.repository.private
         env:
           PUSH_TOKEN: ${{ secrets.TRAFFIC_TOKEN || github.token }}
         run: |
@@ -104,3 +106,17 @@ jobs:
           git add README.md profile/README.md metrics.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: update repository metadata"
           git push
+
+      - name: Create public metadata pull request
+        if: ${{ !github.event.repository.private }}
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: update repository metadata"
+          title: "chore: update repository metadata"
+          body: "Automated refresh of the repository footer metadata."
+          branch: automation/repository-metadata
+          delete-branch: true
+          add-paths: |
+            README.md
+            profile/README.md
+            metrics.json
