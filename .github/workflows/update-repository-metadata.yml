@@ -111,6 +111,7 @@ jobs:
         if: ${{ !github.event.repository.private }}
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.TRAFFIC_TOKEN }}
           commit-message: "chore: update repository metadata"
           title: "chore: update repository metadata"
           body: "Automated refresh of the repository footer metadata."
