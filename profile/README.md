@@ -1,45 +1,55 @@
-# Cloud2BR Open Source <br/> Microsoft Cloud Sandbox - Learning Hub 
+<div align="center">
 
-`Prototype in Sandbox → Build and experiment`
+<img src="https://github.com/Cloud2BR-MSFTLearningHub.png?size=128" width="128" alt="Cloud2BR Microsoft Cloud Sandbox Learning Hub logo" />
 
-> This is where we can test ideas, create educational materials, and build PoC projects 
+# Cloud2BR Microsoft Cloud Sandbox - Learning Hub
 
-USA / Costa Rica
+**Prototype in a sandbox. Build, experiment, and share practical Microsoft Cloud learning.**
 
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+<a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Hub-Microsoft%20Cloud%20Sandbox-0A66C2?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Hub"></a>
+<a href="#learning-resources" target="_self"><img src="https://img.shields.io/badge/Format-Demos%20%7C%20PoCs%20%7C%20Study%20Guides-6A1B9A?style=for-the-badge" alt="Format"></a>
+<a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Community-Open%20Learning-2E7D32?style=for-the-badge&logo=github&logoColor=white" alt="Community"></a>
 
-Last updated: 2026-04-08
+</div>
 
 ----------
 
-> [!IMPORTANT]
-> This is about different topics and areas within Microsoft Cloud Technologies. The Microsoft Cloud 
-ecosystem includes a range of products and solutions designed to work together to provide comprehensive 
-cloud services. It was created to have a hub with demos, technical talks, solutions, use cases, etc., 
-about Microsoft Cloud and to share personal experience and learning with the community.
-> The information provided and any document (such as scripts, sample codes, etc.) is provided `AS-IS` and `WITH ALL FAULTS`. Pricing estimates are for `demonstration purposes only and do not reflect final pricing`. `Microsoft assumes no liability` for your use of this information and makes no guarantees or warranties, expressed or implied, regarding its accuracy or completeness, including any pricing details. `Please note that these demos are intended as a guide and are based on personal experiences. For official guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
+> **Mission:** Provide a safe place to test ideas, create educational materials, build proof-of-concepts, and share personal learning across Microsoft Cloud technologies.
+
+## Learning resources
+
+| Category | Description |
+|---|---|
+| **Demos and technical talks** | Practical examples, scenarios, and learning materials across Microsoft Cloud technologies |
+| **Sandbox experiments and PoCs** | Safe projects for prototyping, testing ideas, and developing hands-on experience |
+| **Study guides and certifications** | Structured resources for Microsoft certification preparation |
+| **Solutions and use cases** | Reference implementations and examples that support applied learning |
+| **Scripts and sample code** | Reusable technical assets for demonstrations and experimentation |
+
+## Endorsements and certifications
 
 <details>
-<summary><b> Endorsed for: </b> (Click to expand)</summary>
+<summary><strong>Endorsed for Microsoft TechWorkshops</strong></summary>
 
-- [TechWorkshop L200: Migrate and Modernize your Estate](https://partner.microsoft.com/id-id/marketing-center/assets/collection/migrate-and-modernize-your-estate#/) - trainer
-- [TechWorkshop L200: Azure AI Apps and Agents](https://microsoft.github.io/TWL200-Copilot-and-agents-at-work/) - trainer 
-- [TechWorkshop L300: Azure AI Apps and Agents](https://microsoft.github.io/TechWorkshop-L300-AI-Apps-and-agents/) - trainer
-- [TechWorkshop L300: GitHub Copilot and platform](https://github.com/microsoft/TechWorkshop-L300-GitHub-Copilot-and-platform) - trainer
+- <a href="https://partner.microsoft.com/id-id/marketing-center/assets/collection/migrate-and-modernize-your-estate#/" target="_blank" rel="noopener noreferrer">L200: Migrate and Modernize your Estate</a>
+- <a href="https://microsoft.github.io/TWL200-Copilot-and-agents-at-work/" target="_blank" rel="noopener noreferrer">L200: Azure AI Apps and Agents</a>
+- <a href="https://microsoft.github.io/TechWorkshop-L300-AI-Apps-and-agents/" target="_blank" rel="noopener noreferrer">L300: Azure AI Apps and Agents</a>
+- <a href="https://github.com/microsoft/TechWorkshop-L300-GitHub-Copilot-and-platform" target="_blank" rel="noopener noreferrer">L300: GitHub Copilot and platform</a>
 
 </details>
 
 <details>
-<summary><b> Certifications: </b> (Click to expand)</summary>
+<summary><strong>Microsoft certification study guides</strong></summary>
 
-- [AI-900 - Study Guide: Azure AI Fundamentals](https://github.com/Cloud2BROpenSource/AI-900StudyGuide)
-- [DP-900 - Study Guide: Azure Data Fundamentals](https://github.com/Cloud2BROpenSource/DP-900StudyGuide)
-- [AI-102 - Study Guide: Azure AI Engineer Associate](https://github.com/Cloud2BROpenSource/AI-102StudyGuide)
-- [DP-100 - Study Guide: Designing and Implementing a Data Science Solution on Azure](https://github.com/Cloud2BROpenSource/DP-100StudyGuide)
+- <a href="https://github.com/Cloud2BR-MSFTLearningHub/AI-900StudyGuide" target="_blank" rel="noopener noreferrer">AI-900: Azure AI Fundamentals</a>
+- <a href="https://github.com/Cloud2BR-MSFTLearningHub/DP-900StudyGuide" target="_blank" rel="noopener noreferrer">DP-900: Azure Data Fundamentals</a>
+- <a href="https://github.com/Cloud2BR-MSFTLearningHub/AI-102StudyGuide" target="_blank" rel="noopener noreferrer">AI-102: Azure AI Engineer Associate</a>
+- <a href="https://github.com/Cloud2BR-MSFTLearningHub/DP-100StudyGuide" target="_blank" rel="noopener noreferrer">DP-100: Designing and Implementing a Data Science Solution on Azure</a>
+- <a href="https://github.com/Cloud2BR-MSFTLearningHub/GH-900StudyGuide" target="_blank" rel="noopener noreferrer">GH-900: GitHub Foundations</a>
 
 </details>
 
-Copilot services and tools:
+## Copilot services and tools
 
 ```mermaid
 flowchart LR
@@ -56,7 +66,7 @@ flowchart LR
   end
 
   subgraph Customizability[Customizability]
-    ThirdPartyCustomAgents[3rd Party & Custom Agents]
+    ThirdPartyCustomAgents[3rd Party and Custom Agents]
   end
 
   M365Copilot --> MicrosoftAgents
@@ -64,7 +74,7 @@ flowchart LR
   AzureAIFoundry --> ThirdPartyCustomAgents
 ```
 
-Deployment lifecycle of software:
+## Deployment lifecycle of software
 
 ```mermaid
 flowchart LR
@@ -80,7 +90,7 @@ flowchart LR
     RC --> Stable[Stable Release]
   end
 
-  subgraph Maintenance[Maintenance & Updates]
+  subgraph Maintenance[Maintenance and Updates]
     Stable --> Hotfix[Hotfix Patch]
     Stable --> FeatureUpdate[Feature Update Minor]
     Stable --> BreakingChange[Breaking Change Major]
@@ -92,38 +102,48 @@ flowchart LR
 ```
 
 <details>
-<summary><b> Details: </b> (Click to expand)</summary>
+<summary><strong>Lifecycle details</strong></summary>
 
-- **Semantic Versioning (vX.X.X)**  
-  - **Major (X)**: Introduces breaking changes. Example: `v2.0.0` → incompatible with `v1.x.x`.  
-  - **Minor (X.X)**: Adds new features but remains backward-compatible. E.g: `v1.3.0`.  
-  - **Patch (X.X.X)**: Bug fixes or small improvements, no new features. E.g: `v1.3.2`.
-- **Release Types**  
-  - **Development Builds**: Internal, unstable, often nightly builds.  
-  - **Alpha**: Early testing, incomplete features.
-    - Internal testing phase.
-    - Features are incomplete or unstable.
-    - Used mainly by developers and sometimes a small internal QA team.
-  - **Beta**: Feature-complete, external testers provide feedback.
-    - Product is more stable and feature-complete.
-    - Released to a limited group of external users (beta testers).
-    - Goal: gather feedback, identify bugs, and test usability in real-world scenarios.
-    - Often comes with disclaimers: “may contain bugs,” “not final,” etc.
-  - **Release Candidate (RC)**: Candidate for final release, only critical fixes allowed.
-    - A version that could be the final product if no major issues are found.
-    - Focus is on fixing critical bugs only.
-  - General Availability (GA): Official production-ready release. 
-    - Official public release.
-    - Considered stable, supported, and ready for production use.
-- **Maintenance & Updates**  
-  - **Hotfix (Patch)**: Urgent bug/security fix, increments patch number.  
-  - **Feature Update (Minor)**: Adds new functionality without breaking compatibility.  
-  - **Breaking Change (Major)**: Requires incrementing the major version due to incompatibility.  
+- **Semantic Versioning (vX.X.X)**
+  - **Major (X):** Introduces breaking changes. Example: `v2.0.0` is incompatible with `v1.x.x`.
+  - **Minor (X.X):** Adds backward-compatible features. Example: `v1.3.0`.
+  - **Patch (X.X.X):** Provides bug fixes or small improvements. Example: `v1.3.2`.
+- **Release Types**
+  - **Development Builds:** Internal and unstable builds, often produced nightly.
+  - **Alpha:** Early testing with incomplete or unstable features, mainly for developers and a small internal QA group.
+  - **Beta:** Feature-complete builds for limited external feedback, usability testing, and bug discovery.
+  - **Release Candidate (RC):** A candidate for the final product; only critical fixes should be made.
+  - **General Availability (GA):** Official public release that is stable, supported, and production-ready.
+- **Maintenance and Updates**
+  - **Hotfix (Patch):** Urgent bug or security fix that increments the patch version.
+  - **Feature Update (Minor):** Adds functionality without breaking compatibility.
+  - **Breaking Change (Major):** Requires a major version increment.
+
 </details>
+
+## Related organizations
+
+| Organization | Purpose |
+|---|---|
+| <a href="https://github.com/Cloud2BR" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR</strong></a> | Consulting and enablement hub |
+| <a href="https://github.com/Cloud2BR-TEC" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR TEC Hub</strong></a> | Technology Education Center |
+| <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR MSFT Learning Hub</strong></a> | Microsoft Cloud Sandbox and open learning resources |
+
+## Get involved
+
+- **Explore** the organization repositories for demos, study guides, tools, and reference material.
+- **Experiment** with the sandbox projects and adapt them to approved learning environments.
+- **Contribute** through issues, pull requests, technical talks, and knowledge sharing.
+
+> [!IMPORTANT]
+> Materials, including scripts and sample code, are provided **AS-IS** and **WITH ALL FAULTS**. Pricing estimates are for demonstration purposes only and do not reflect final pricing. Microsoft assumes no liability for use of this information. For official guidance, support, or detailed information, refer to Microsoft's documentation or contact <a href="https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME" target="_blank" rel="noopener noreferrer">Microsoft Sales and Support</a>.
+
+> [!NOTE]
+> Content is intended for learning, demonstrations, and practical experimentation. Review and validate materials before production use.
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1306-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-08</p>
+  <img src="https://img.shields.io/badge/Total%20views-0-0A66C2" alt="Total views">
+  <p>Refresh Date: 2026-09-02</p>
 </div>
 <!-- END BADGE -->
