@@ -17,4 +17,5 @@ jobs:
     uses: ./.github/workflows/update-repository-metadata.yml
     permissions:
       contents: write
+      pull-requests: write
     secrets: inherit
