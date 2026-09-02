@@ -1,37 +1,78 @@
-[
-  {
-    "date": "2025-07-07",
-    "count": 330,
-    "uniques": 20
-  },
-  {
-    "date": "2025-07-08",
-    "count": 159,
-    "uniques": 6
-  },
-  {
-    "date": "2025-07-10",
-    "count": 482,
-    "uniques": 1
-  },
-  {
-    "date": "2025-07-11",
-    "count": 170,
-    "uniques": 4
-  },
-  {
-    "date": "2025-07-12",
-    "count": 7,
-    "uniques": 1
-  },
-  {
-    "date": "2025-07-14",
-    "count": 130,
-    "uniques": 2
-  },
-  {
-    "date": "2025-07-15",
-    "count": 2,
-    "uniques": 1
-  }
-]
+{
+  "repository": "Cloud2BR-MSFTLearningHub/.github",
+  "refresh_date": "2026-09-02",
+  "count": 0,
+  "uniques": 0,
+  "views": [
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-27T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-28T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-29T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-31T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-09-01T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    }
+  ]
+}
