@@ -156,8 +156,7 @@ flowchart LR
 - **Contribute** through issues, pull requests, technical talks, and knowledge sharing.
 
 > [!IMPORTANT]
-> Materials, including scripts and sample code, are provided **AS-IS** and **WITH ALL FAULTS**. Pricing estimates are for demonstration purposes only and do not reflect final pricing. Microsoft assumes no liability for use of this information. For official guidance, support, or detailed information, refer to Microsoft's documentation or contact <a href="https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME" target="_blank" rel="noopener noreferrer">Microsoft Sales and Support</a>.
+> Materials, including scripts and sample code, are provided **AS-IS** and **WITH ALL FAULTS**. Pricing estimates are for demonstration purposes only and do not reflect final pricing. Cloud2BR assumes no liability for use of this information. For official guidance, support, or detailed information, refer to Microsoft's documentation or contact <a href="https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME" target="_blank" rel="noopener noreferrer">Microsoft Sales and Support</a>.
 
 > [!NOTE]
 > Content is intended for learning, demonstrations, and practical experimentation. Review and validate materials before production use.
-
