@@ -16,15 +16,29 @@
 
 > **Mission:** Provide a safe place to test ideas, create educational materials, build proof-of-concepts, and share personal learning across Microsoft Cloud technologies.
 
+## Organizations and initiatives
+
+Explore the connected Cloud2BR initiatives:
+
+| Organization | Focus | Explore |
+| --- | --- | --- |
+| <img src="https://github.com/Cloud2BR-MSFTLearningHub.png?size=80" width="28" height="28" alt=""> **[Cloud2BR Microsoft Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)** | Microsoft labs, guides, and examples | [Catalog](https://cloud2br-msftlearninghub.github.io/org-catalog/) |
+| <img src="https://github.com/Cloud2BR.png?size=80" width="28" height="28" alt=""> **[Cloud2BR](https://github.com/Cloud2BR)** | Cloud consulting and enablement | [OSS hub](https://cloud2br.github.io/oss-hub/) |
+| <img src="https://github.com/Cloud2BR-TEC.png?size=80" width="28" height="28" alt=""> **[Cloud2BR-TEC](https://github.com/Cloud2BR-TEC)** | Technology education and practice | [Education](https://cloud2br-tec.github.io/tec-hub/) |
+
 ## Learning resources
 
-| Category | Description |
-|---|---|
-| **Demos and technical talks** | Practical examples, scenarios, and learning materials across Microsoft Cloud technologies |
-| **Sandbox experiments and PoCs** | Safe projects for prototyping, testing ideas, and developing hands-on experience |
-| **Study guides and certifications** | Structured resources for Microsoft certification preparation |
-| **Solutions and use cases** | Reference implementations and examples that support applied learning |
-| **Scripts and sample code** | Reusable technical assets for demonstrations and experimentation |
+Choose a starting point for your next Microsoft Cloud learning journey. Browse
+the [full catalog](https://cloud2br-msftlearninghub.github.io/org-catalog/)
+to discover more projects.
+
+| Category | What you will find | Start exploring |
+| --- | --- | --- |
+| **Demos and technical talks** | Practical scenarios, presentations, and examples across Microsoft Cloud technologies. | [Demos and scenarios](https://github.com/Cloud2BR-MSFTLearningHub/DemosScenarios-TechTalks) |
+| **Sandbox experiments and PoCs** | Hands-on projects for testing ideas and building practical experience in an approved environment. | [AI agent infrastructure blueprint](https://github.com/Cloud2BR-MSFTLearningHub/AI-Agent-Infra-Blueprint) |
+| **Study guides and certifications** | Structured learning resources to support Microsoft and GitHub certification preparation. | [AI-900](https://github.com/Cloud2BR-MSFTLearningHub/AI-900StudyGuide) · [GH-900](https://github.com/Cloud2BR-MSFTLearningHub/GH-900StudyGuide) |
+| **Solutions and use cases** | Reference implementations and examples that connect concepts to real-world scenarios. | [Fabric enterprise framework](https://github.com/Cloud2BR-MSFTLearningHub/Fabric-EnterpriseFramework) |
+| **Scripts and sample code** | Reusable technical assets for demonstrations, automation, and experimentation. | [Blob upload and summary tool](https://github.com/Cloud2BR-MSFTLearningHub/BlobFileUpload-SummaryTool) |
 
 ## Endorsements and certifications
 
@@ -140,14 +154,6 @@ flowchart LR
   - **Breaking Change (Major):** Requires a major version increment.
 
 </details>
-
-## Related organizations
-
-| Organization | Purpose |
-|---|---|
-| <a href="https://github.com/Cloud2BR" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR</strong></a> | Consulting and enablement hub |
-| <a href="https://github.com/Cloud2BR-TEC" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR TEC Hub</strong></a> | Technology Education Center |
-| <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR MSFT Learning Hub</strong></a> | Microsoft Cloud Sandbox and open learning resources |
 
 ## Get involved
 
